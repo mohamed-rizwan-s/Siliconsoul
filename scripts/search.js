@@ -6,8 +6,8 @@
 (function() {
   'use strict';
 
-  // Search configuration
-  const SEARCH_INDEX_URL = '/search-index.json';
+  // Search configuration - use relative path for GitHub Pages compatibility
+  const SEARCH_INDEX_URL = 'search-index.json';
   const DEBOUNCE_DELAY = 150;
   const MAX_RESULTS = 10;
   const HIGHLIGHT_LENGTH = 120;

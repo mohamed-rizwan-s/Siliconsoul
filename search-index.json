@@ -3,7 +3,7 @@
     "title": "Accessibility First - Building for Everyone",
     "description": "Learn how to create inclusive web experiences that work for all users, regardless of ability or device.",
     "content": "Accessibility isn't a feature you add at the end—it's a foundation you build from the start. An accessible website works better for everyone: people with disabi...",
-    "url": "/posts/accessibility-first.html",
+    "url": "/Siliconsoul/posts/accessibility-first.html",
     "date": "2024-01-30",
     "tags": [
       "accessibility",
@@ -16,7 +16,7 @@
     "title": "Web Performance - A Practical Guide",
     "description": "Learn practical techniques to make your website faster, more responsive, and better for users.",
     "content": "Performance is a feature. A fast website delights users, improves SEO, and increases conversions. This guide covers practical techniques you can apply today. Wh...",
-    "url": "/posts/web-performance.html",
+    "url": "/Siliconsoul/posts/web-performance.html",
     "date": "2024-01-25",
     "tags": [
       "performance",
@@ -29,7 +29,7 @@
     "title": "Modern CSS Features You Should Be Using",
     "description": "Discover the latest CSS features that can simplify your stylesheets and enhance your web designs.",
     "content": "CSS has evolved dramatically in recent years. Features that once required JavaScript or preprocessor hacks can now be achieved with pure CSS. Let's explore the...",
-    "url": "/posts/modern-css-features.html",
+    "url": "/Siliconsoul/posts/modern-css-features.html",
     "date": "2024-01-20",
     "tags": [
       "css",
@@ -42,7 +42,7 @@
     "title": "Building a Minimal Blog with Vanilla HTML, CSS, and JavaScript",
     "description": "A comprehensive guide to creating a fast, elegant, and framework-free blog that can be hosted on GitHub Pages.",
     "content": "In a world dominated by complex JavaScript frameworks, there's something refreshing about going back to basics. This post explores how to build a modern, elegan...",
-    "url": "/posts/building-minimal-blog.html",
+    "url": "/Siliconsoul/posts/building-minimal-blog.html",
     "date": "2024-01-15",
     "tags": [
       "javascript",
@@ -56,7 +56,7 @@
     "title": "Creating a Design System with CSS Custom Properties",
     "description": "Learn how to build scalable, maintainable design systems using CSS variables and a systematic approach to styling.",
     "content": "Design tokens are the visual atoms of your design system. They represent the values that define your brand's visual language—colors, typography, spacing, and mo...",
-    "url": "/posts/css-design-tokens.html",
+    "url": "/Siliconsoul/posts/css-design-tokens.html",
     "date": "2024-01-10",
     "tags": [
       "css",
@@ -69,7 +69,7 @@
     "title": "Typography Matters - A Guide to Beautiful Web Text",
     "description": "Master the art of web typography to create readable, beautiful, and accessible text content.",
     "content": "Typography is the voice of your content. Good typography goes unnoticed—it simply makes reading effortless. Bad typography, on the other hand, creates friction...",
-    "url": "/posts/typography-matters.html",
+    "url": "/Siliconsoul/posts/typography-matters.html",
     "date": "2024-01-05",
     "tags": [
       "typography",
