@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Minimal Blog</title>
+    <link>https://yourusername.github.io</link>
+    <description>A minimal, elegant blog built with pure HTML, CSS, and JavaScript.</description>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 31 Jan 2026 13:57:04 GMT</lastBuildDate>
+    <atom:link href="https://yourusername.github.io/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Accessibility First - Building for Everyone</title>
+      <link>https://yourusername.github.io/posts/accessibility-first.html</link>
+      <guid>https://yourusername.github.io/posts/accessibility-first.html</guid>
+      <pubDate>Tue, 30 Jan 2024 00:00:00 GMT</pubDate>
+      <description>Learn how to create inclusive web experiences that work for all users, regardless of ability or device.</description>
+      <category>accessibility</category>
+      <category>a11y</category>
+      <category>web-development</category>
+    </item>
+    <item>
+      <title>Web Performance - A Practical Guide</title>
+      <link>https://yourusername.github.io/posts/web-performance.html</link>
+      <guid>https://yourusername.github.io/posts/web-performance.html</guid>
+      <pubDate>Thu, 25 Jan 2024 00:00:00 GMT</pubDate>
+      <description>Learn practical techniques to make your website faster, more responsive, and better for users.</description>
+      <category>performance</category>
+      <category>web-development</category>
+      <category>optimization</category>
+    </item>
+    <item>
+      <title>Modern CSS Features You Should Be Using</title>
+      <link>https://yourusername.github.io/posts/modern-css-features.html</link>
+      <guid>https://yourusername.github.io/posts/modern-css-features.html</guid>
+      <pubDate>Sat, 20 Jan 2024 00:00:00 GMT</pubDate>
+      <description>Discover the latest CSS features that can simplify your stylesheets and enhance your web designs.</description>
+      <category>css</category>
+      <category>web-development</category>
+      <category>tutorial</category>
+    </item>
+    <item>
+      <title>Building a Minimal Blog with Vanilla HTML, CSS, and JavaScript</title>
+      <link>https://yourusername.github.io/posts/building-minimal-blog.html</link>
+      <guid>https://yourusername.github.io/posts/building-minimal-blog.html</guid>
+      <pubDate>Mon, 15 Jan 2024 00:00:00 GMT</pubDate>
+      <description>A comprehensive guide to creating a fast, elegant, and framework-free blog that can be hosted on GitHub Pages.</description>
+      <category>javascript</category>
+      <category>css</category>
+      <category>tutorial</category>
+      <category>web-development</category>
+    </item>
+    <item>
+      <title>Creating a Design System with CSS Custom Properties</title>
+      <link>https://yourusername.github.io/posts/css-design-tokens.html</link>
+      <guid>https://yourusername.github.io/posts/css-design-tokens.html</guid>
+      <pubDate>Wed, 10 Jan 2024 00:00:00 GMT</pubDate>
+      <description>Learn how to build scalable, maintainable design systems using CSS variables and a systematic approach to styling.</description>
+      <category>css</category>
+      <category>design-systems</category>
+      <category>tutorial</category>
+    </item>
+    <item>
+      <title>Typography Matters - A Guide to Beautiful Web Text</title>
+      <link>https://yourusername.github.io/posts/typography-matters.html</link>
+      <guid>https://yourusername.github.io/posts/typography-matters.html</guid>
+      <pubDate>Fri, 05 Jan 2024 00:00:00 GMT</pubDate>
+      <description>Master the art of web typography to create readable, beautiful, and accessible text content.</description>
+      <category>typography</category>
+      <category>design</category>
+      <category>css</category>
+    </item>
+  </channel>
+</rss>
