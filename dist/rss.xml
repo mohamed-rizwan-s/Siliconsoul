@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>SiliconSoul</title>
-    <link>https://github.com/mohamed-rizwan-s/Siliconsoul/Siliconsoul</link>
-    <description>AI and everything in between. Built by AI.</description>
+    <title>Minimal Blog</title>
+    <link>https://mohamed-rizwan-s.github.io/Siliconsoul</link>
+    <description>A minimal, elegant blog built with pure HTML, CSS, and JavaScript.</description>
     <language>en-us</language>
-    <lastBuildDate>Sun, 01 Feb 2026 17:55:15 GMT</lastBuildDate>
-    <atom:link href="https://github.com/mohamed-rizwan-s/Siliconsoul/Siliconsoul/rss.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 01 Feb 2026 18:14:11 GMT</lastBuildDate>
+    <atom:link href="https://mohamed-rizwan-s.github.io/Siliconsoul/rss.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The CEO of One: How to Lead an AI Workforce (Before Your Boss Does)</title>
-      <link>https://github.com/mohamed-rizwan-s/Siliconsoul/Siliconsoul/posts/agentic-ai-conductor-mindset.html</link>
-      <guid>https://github.com/mohamed-rizwan-s/Siliconsoul/Siliconsoul/posts/agentic-ai-conductor-mindset.html</guid>
+      <link>https://mohamed-rizwan-s.github.io/Siliconsoul/posts/agentic-ai-conductor-mindset.html</link>
+      <guid>https://mohamed-rizwan-s.github.io/Siliconsoul/posts/agentic-ai-conductor-mindset.html</guid>
       <pubDate>Sun, 01 Feb 2026 00:00:00 GMT</pubDate>
       <description>The real threat isn&apos;t AI replacing you—it&apos;s becoming the person who doesn&apos;t use AI while someone younger and hungrier builds an army of digital interns.</description>
       <category>ai</category>
@@ -20,8 +20,8 @@
     </item>
     <item>
       <title>Everything You Know About AI Is Already Obsolete</title>
-      <link>https://github.com/mohamed-rizwan-s/Siliconsoul/Siliconsoul/posts/everything-you-know-about-ai-is-obsolete.html</link>
-      <guid>https://github.com/mohamed-rizwan-s/Siliconsoul/Siliconsoul/posts/everything-you-know-about-ai-is-obsolete.html</guid>
+      <link>https://mohamed-rizwan-s.github.io/Siliconsoul/posts/everything-you-know-about-ai-is-obsolete.html</link>
+      <guid>https://mohamed-rizwan-s.github.io/Siliconsoul/posts/everything-you-know-about-ai-is-obsolete.html</guid>
       <pubDate>Sun, 01 Feb 2026 00:00:00 GMT</pubDate>
       <description>The uncomfortable truth - if you are just using AI to do tasks, you are competing on price against a machine that costs pennies to run. You will lose.</description>
       <category>ai</category>
@@ -32,8 +32,8 @@
     </item>
     <item>
       <title>The Sovereign Brain - Why the Future of AI Must Be Local</title>
-      <link>https://github.com/mohamed-rizwan-s/Siliconsoul/Siliconsoul/posts/the-sovereign-brain.html</link>
-      <guid>https://github.com/mohamed-rizwan-s/Siliconsoul/Siliconsoul/posts/the-sovereign-brain.html</guid>
+      <link>https://mohamed-rizwan-s.github.io/Siliconsoul/posts/the-sovereign-brain.html</link>
+      <guid>https://mohamed-rizwan-s.github.io/Siliconsoul/posts/the-sovereign-brain.html</guid>
       <pubDate>Sun, 01 Feb 2026 00:00:00 GMT</pubDate>
       <description>If we want AI to truly augment human potential, we have to break the tether to the cloud. We need to run these models locally, on our own devices.</description>
       <category>ai</category>
@@ -44,8 +44,8 @@
     </item>
     <item>
       <title>We Shape Our Tools, and Thereafter Our Tools Shape Us</title>
-      <link>https://github.com/mohamed-rizwan-s/Siliconsoul/Siliconsoul/posts/tools-shape-us.html</link>
-      <guid>https://github.com/mohamed-rizwan-s/Siliconsoul/Siliconsoul/posts/tools-shape-us.html</guid>
+      <link>https://mohamed-rizwan-s.github.io/Siliconsoul/posts/tools-shape-us.html</link>
+      <guid>https://mohamed-rizwan-s.github.io/Siliconsoul/posts/tools-shape-us.html</guid>
       <pubDate>Sun, 01 Feb 2026 00:00:00 GMT</pubDate>
       <description>Every time an AI agent moves a file for you or edits your config, you&apos;re not just skipping the boring work. You&apos;re skipping the comprehension.</description>
       <category>ai</category>

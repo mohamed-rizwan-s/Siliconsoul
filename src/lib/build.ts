@@ -57,8 +57,12 @@ const CONFIG = {
   siteUrl: 'https://mohamed-rizwan-s.github.io/Siliconsoul',
   siteName: 'Minimal Blog',
   siteDescription: 'A minimal, elegant blog built with pure HTML, CSS, and JavaScript.',
-  author: 'Your Name',
+  author: 'Mohamed Rizwan',
   postsPerPage: 9,
+  // Base path for assets and links
+  // Set to '' for local development or root domain
+  // Set to '/repo-name' for GitHub Pages subdirectory
+  basePath: '/Siliconsoul',
 };
 
 // ============================================
@@ -486,7 +490,7 @@ class SiteGenerator {
     const tagsCloudHtml = Array.from(tags.entries())
       .slice(0, 10)
       .map(([tag, count]) => `
-        <a href="/tags/${this.slugify(tag)}.html" class="tag-cloud-item">
+        <a href="${CONFIG.basePath}/tags/${this.slugify(tag)}.html" class="tag-cloud-item">
           ${this.capitalize(tag)}
           <span class="tag-cloud-count">${count}</span>
         </a>
@@ -565,15 +569,15 @@ class SiteGenerator {
       const nextPost = posts[i - 1];
 
       const postTagsHtml = post.frontmatter.tags
-        .map(tag => `<a href="/tags/${this.slugify(tag)}.html" class="tag-link">${tag}</a>`)
+        .map(tag => `<a href="${CONFIG.basePath}/tags/${this.slugify(tag)}.html" class="tag-link">${tag}</a>`)
         .join('');
 
       const postCoverHtml = post.frontmatter.cover
-        ? `<div class="post-cover"><img src="/Siliconsoul${post.frontmatter.cover}" alt="${post.frontmatter.title}" loading="lazy"></div>`
+        ? `<div class="post-cover"><img src="${CONFIG.basePath}${post.frontmatter.cover}" alt="${post.frontmatter.title}" loading="lazy"></div>`
         : '';
 
       const prevPostHtml = prevPost
-        ? `<a href="/posts/${prevPost.slug}.html" class="post-nav-item">
+        ? `<a href="${CONFIG.basePath}/posts/${prevPost.slug}.html" class="post-nav-item">
             <span class="post-nav-label">
               <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                 <path d="m15 18-6-6 6-6"/>
@@ -585,7 +589,7 @@ class SiteGenerator {
         : '<div></div>';
 
       const nextPostHtml = nextPost
-        ? `<a href="/posts/${nextPost.slug}.html" class="post-nav-item next">
+        ? `<a href="${CONFIG.basePath}/posts/${nextPost.slug}.html" class="post-nav-item next">
             <span class="post-nav-label">
               Next
               <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -744,7 +748,7 @@ class SiteGenerator {
       title: post.frontmatter.title,
       description: post.frontmatter.description,
       content: post.excerpt,
-      url: `/posts/${post.slug}.html`,
+      url: `${CONFIG.basePath}/posts/${post.slug}.html`,
       date: post.frontmatter.date,
       tags: post.frontmatter.tags,
       readingTime: post.readingTime
@@ -908,7 +912,36 @@ class SiteGenerator {
    * Render base template with content
    */
   private renderBase(variables: Record<string, string>): string {
-    return this.templateEngine.render('base', variables);
+    let html = this.templateEngine.render('base', variables);
+    return this.fixPaths(html);
+  }
+
+  /**
+   * Fix paths in HTML for the current deployment type
+   * Replaces template paths with proper paths including basePath
+   */
+  private fixPaths(html: string): string {
+    const basePath = CONFIG.basePath;
+    if (!basePath) return html;
+
+    // Replace href="/..." with href="{basePath}/..."
+    // But be careful not to replace external URLs
+
+    // For assets, styles, scripts
+    html = html.replace(/href="\/(assets|styles|scripts)\//g, `href="${basePath}/$1/`);
+    html = html.replace(/src="\/(assets|scripts)\//g, `src="${basePath}/$1/`);
+
+    // For page links
+    html = html.replace(/href="\/blog\.html"/g, `href="${basePath}/blog.html"`);
+    html = html.replace(/href="\/about\.html"/g, `href="${basePath}/about.html"`);
+    html = html.replace(/href="\/rss\.xml"/g, `href="${basePath}/rss.xml"`);
+    html = html.replace(/href="\/404\.html"/g, `href="${basePath}/404.html"`);
+    html = html.replace(/href="\/search-index\.json"/g, `href="${basePath}/search-index.json"`);
+
+    // For home link - handle both "/" and "/index.html"
+    html = html.replace(/href="\/"/g, `href="${basePath}/"`);
+
+    return html;
   }
 
   /**
@@ -921,12 +954,12 @@ class SiteGenerator {
       .join('');
 
     const imageHtml = post.frontmatter.cover
-      ? `<div class="post-card-image"><img src="/Siliconsoul${post.frontmatter.cover}" alt="${post.frontmatter.title}" loading="lazy"></div>`
+      ? `<div class="post-card-image"><img src="${CONFIG.basePath}${post.frontmatter.cover}" alt="${post.frontmatter.title}" loading="lazy"></div>`
       : `<div class="post-card-image" style="background: linear-gradient(135deg, hsl(var(--muted)) 0%, hsl(var(--border)) 100%);"></div>`;
 
     return `
       <article class="post-card">
-        <a href="/posts/${post.slug}.html" class="post-card-link" style="display: contents;">
+        <a href="${CONFIG.basePath}/posts/${post.slug}.html" class="post-card-link" style="display: contents;">
           ${imageHtml}
           <div class="post-card-content">
             <div class="post-card-meta">

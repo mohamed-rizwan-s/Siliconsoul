@@ -4,7 +4,7 @@
   "description": "A modern, elegant blog built with pure HTML, CSS, and JavaScript",
   "main": "index.html",
   "scripts": {
-    "build": "node build.js",
+    "build": "ts-node src/lib/build.ts",
     "preview": "npx serve dist -p 3000 -s",
     "clean": "rm -rf dist",
     "deploy": "npm run build && npx gh-pages -d dist"
@@ -23,5 +23,10 @@
   "homepage": "https://github.com/mohamed-rizwan-s/Siliconsoul",
   "engines": {
     "node": ">=18.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^25.2.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
   }
 }
