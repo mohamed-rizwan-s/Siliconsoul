@@ -1424,7 +1424,7 @@ pre code {
 
 .about-avatar {
   width: 200px;
-  height: 250px;
+  height: 200px;
   border-radius: var(--radius);
   overflow: hidden;
   box-shadow: var(--shadow-lg);
@@ -1441,7 +1441,7 @@ pre code {
 .about-avatar img {
   width: 100%;
   height: 100%;
-  object-fit: contain;
+  object-fit: cover;
 }
 
 .about-content h2 {
