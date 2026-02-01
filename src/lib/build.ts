@@ -54,7 +54,7 @@ const CONFIG = {
   templatesDir: './templates',
   srcDir: './src',
   distDir: './dist',
-  siteUrl: 'https://github.com/mohamed-rizwan-s/Siliconsoul',
+  siteUrl: 'https://mohamed-rizwan-s.github.io/Siliconsoul',
   siteName: 'Minimal Blog',
   siteDescription: 'A minimal, elegant blog built with pure HTML, CSS, and JavaScript.',
   author: 'Your Name',
@@ -569,7 +569,7 @@ class SiteGenerator {
         .join('');
 
       const postCoverHtml = post.frontmatter.cover
-        ? `<div class="post-cover"><img src="${post.frontmatter.cover}" alt="${post.frontmatter.title}" loading="lazy"></div>`
+        ? `<div class="post-cover"><img src="/Siliconsoul${post.frontmatter.cover}" alt="${post.frontmatter.title}" loading="lazy"></div>`
         : '';
 
       const prevPostHtml = prevPost
@@ -635,7 +635,7 @@ class SiteGenerator {
         keywords: post.frontmatter.tags.join(', '),
         ogType: 'article',
         canonicalUrl: `${CONFIG.siteUrl}/posts/${post.slug}.html`,
-        ogImage: post.frontmatter.cover || `${CONFIG.siteUrl}/assets/og-image.jpg`,
+        ogImage: post.frontmatter.cover ? `${CONFIG.siteUrl}${post.frontmatter.cover}` : `${CONFIG.siteUrl}/assets/og-image.jpg`,
         content,
         year: new Date().getFullYear().toString(),
         activeHome: '',
@@ -921,7 +921,7 @@ class SiteGenerator {
       .join('');
 
     const imageHtml = post.frontmatter.cover
-      ? `<div class="post-card-image"><img src="${post.frontmatter.cover}" alt="${post.frontmatter.title}" loading="lazy"></div>`
+      ? `<div class="post-card-image"><img src="/Siliconsoul${post.frontmatter.cover}" alt="${post.frontmatter.title}" loading="lazy"></div>`
       : `<div class="post-card-image" style="background: linear-gradient(135deg, hsl(var(--muted)) 0%, hsl(var(--border)) 100%);"></div>`;
 
     return `
