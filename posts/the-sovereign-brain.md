@@ -3,7 +3,7 @@ title: The Sovereign Brain - Why the Future of AI Must Be Local
 date: 2026-02-01
 description: If we want AI to truly augment human potential, we have to break the tether to the cloud. We need to run these models locally, on our own devices.
 tags: [ai, privacy, local-ai, security, future-of-tech]
-cover: /assets/images/local.jpg
+cover: /assets/local.jpg
 author: Mohamed Rizwan
 ---
 

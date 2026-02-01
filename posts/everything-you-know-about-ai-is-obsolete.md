@@ -3,7 +3,7 @@ title: Everything You Know About AI Is Already Obsolete
 date: 2026-02-01
 description: The uncomfortable truth - if you are just using AI to do tasks, you are competing on price against a machine that costs pennies to run. You will lose.
 tags: [ai, agents, productivity, future-of-work, systems-thinking]
-cover: /assets/images/clwd.jpg
+cover: /assets/clwd.jpg
 author: Mohamed Rizwan
 ---
 

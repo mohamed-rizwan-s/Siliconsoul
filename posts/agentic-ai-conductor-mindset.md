@@ -3,7 +3,7 @@ title: The CEO of One: How to Lead an AI Workforce (Before Your Boss Does)
 date: 2026-02-01
 description: The real threat isn't AI replacing you—it's becoming the person who doesn't use AI while someone younger and hungrier builds an army of digital interns.
 tags: [ai, productivity, future-of-work, mindset]
-cover: /assets/images/ceo.jpg
+cover: /assets/ceo.jpg
 author: Mohamed Rizwan
 ---
 

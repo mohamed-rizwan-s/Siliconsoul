@@ -3,7 +3,7 @@ title: We Shape Our Tools, and Thereafter Our Tools Shape Us
 date: 2026-02-01
 description: Every time an AI agent moves a file for you or edits your config, you're not just skipping the boring work. You're skipping the comprehension.
 tags: [ai, learning, productivity, engineering, cognition]
-cover: /assets/images/clawd.jpg
+cover: /assets/clawd.jpg
 author: Mohamed Rizwan
 ---
 
