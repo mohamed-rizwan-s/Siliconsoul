@@ -3,10 +3,21 @@
   <channel>
     <title>SiliconSoul</title>
     <link>https://github.com/mohamed-rizwan-s/Siliconsoul/Siliconsoul</link>
-    <description>A minimal, elegant blog built with pure HTML, CSS, and JavaScript.</description>
+    <description>AI and everything in between. Built by AI.</description>
     <language>en-us</language>
-    <lastBuildDate>Sun, 01 Feb 2026 04:34:34 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 01 Feb 2026 15:06:16 GMT</lastBuildDate>
     <atom:link href="https://github.com/mohamed-rizwan-s/Siliconsoul/Siliconsoul/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Conductor Mindset - Why Agentic AI Changes Everything</title>
+      <link>https://github.com/mohamed-rizwan-s/Siliconsoul/Siliconsoul/posts/agentic-ai-conductor-mindset.html</link>
+      <guid>https://github.com/mohamed-rizwan-s/Siliconsoul/Siliconsoul/posts/agentic-ai-conductor-mindset.html</guid>
+      <pubDate>Sun, 01 Feb 2026 00:00:00 GMT</pubDate>
+      <description>The real threat isn&apos;t AI replacing you—it&apos;s becoming the person who doesn&apos;t use AI while someone younger and hungrier builds an army of digital interns.</description>
+      <category>ai</category>
+      <category>productivity</category>
+      <category>future-of-work</category>
+      <category>mindset</category>
+    </item>
     <item>
       <title>Accessibility First - Building for Everyone</title>
       <link>https://github.com/mohamed-rizwan-s/Siliconsoul/Siliconsoul/posts/accessibility-first.html</link>
