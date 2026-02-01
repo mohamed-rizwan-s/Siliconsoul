@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Every time an AI agent moves a file for you or edits your config, you're not just skipping the boring work. You're skipping the comprehension.">
+  <meta name="author" content="Mohamed Rizwan">
+  <meta name="keywords" content="ai, learning, productivity, engineering, cognition">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="We Shape Our Tools, and Thereafter Our Tools Shape Us - SiliconSoul">
+  <meta property="og:description" content="Every time an AI agent moves a file for you or edits your config, you're not just skipping the boring work. You're skipping the comprehension.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://github.com/mohamed-rizwan-s/Siliconsoul/posts/tools-shape-us.html">
+  <meta property="og:image" content="/assets/images/tools-shape-us.jpg">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="We Shape Our Tools, and Thereafter Our Tools Shape Us - SiliconSoul">
+  <meta name="twitter:description" content="Every time an AI agent moves a file for you or edits your config, you're not just skipping the boring work. You're skipping the comprehension.">
+  <meta name="twitter:image" content="/assets/images/tools-shape-us.jpg">
+
+  <link rel="canonical" href="https://github.com/mohamed-rizwan-s/Siliconsoul/posts/tools-shape-us.html">
+  <link rel="icon" type="image/svg+xml" href="/Siliconsoul/assets/favicon.svg">
+  <link rel="stylesheet" href="/Siliconsoul/styles/main.css">
+  <link rel="stylesheet" href="/Siliconsoul/styles/prism.css">
+
+  <title>We Shape Our Tools, and Thereafter Our Tools Shape Us - SiliconSoul</title>
+
+  <!-- Preload fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <!-- Navigation -->
+  <nav class="navbar" role="navigation" aria-label="Main navigation">
+    <div class="navbar-container">
+      <a href="/Siliconsoul/" class="navbar-brand" aria-label="Home">
+        <span class="brand-logo">◆</span>
+        <span class="brand-text">SiliconSoul</span>
+      </a>
+
+      <div class="navbar-nav" id="navbar-nav">
+        <a href="/Siliconsoul/" class="nav-link ">Home</a>
+        <a href="/Siliconsoul/blog.html" class="nav-link active">Blog</a>
+        <a href="/Siliconsoul/about.html" class="nav-link ">About</a>
+      </div>
+
+      <div class="navbar-actions">
+        <button class="search-toggle" id="search-toggle" aria-label="Open search">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="11" cy="11" r="8"></circle>
+            <path d="m21 21-4.35-4.35"></path>
+          </svg>
+        </button>
+        <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">
+          <svg class="sun-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+            stroke-width="2">
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+          </svg>
+          <svg class="moon-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+            stroke-width="2">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+        </button>
+        <button class="mobile-menu-toggle" id="mobile-menu-toggle" aria-label="Toggle menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Search Modal -->
+  <div class="search-modal" id="search-modal" role="dialog" aria-label="Search" aria-hidden="true">
+    <div class="search-backdrop"></div>
+    <div class="search-container">
+      <div class="search-input-wrapper">
+        <svg class="search-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+          stroke-width="2">
+          <circle cx="11" cy="11" r="8"></circle>
+          <path d="m21 21-4.35-4.35"></path>
+        </svg>
+        <input type="text" class="search-input" id="search-input" placeholder="Search articles..." autocomplete="off">
+        <kbd class="search-shortcut">ESC</kbd>
+      </div>
+      <div class="search-results" id="search-results"></div>
+    </div>
+  </div>
+
+  <!-- Main Content -->
+  <main class="main-content">
+    <!-- Post Header -->
+<header class="post-header">
+  <div class="post-header-container">
+    <div class="post-meta">
+      <span class="post-author">Mohamed Rizwan</span>
+      <span class="post-separator">•</span>
+      <time class="post-date" datetime="2026-02-01">Feb 1, 2026</time>
+      <span class="post-separator">•</span>
+      <span class="post-reading-time">5 min read</span>
+    </div>
+    <h1 class="post-title">We Shape Our Tools, and Thereafter Our Tools Shape Us</h1>
+    <p class="post-description">Every time an AI agent moves a file for you or edits your config, you're not just skipping the boring work. You're skipping the comprehension.</p>
+    <a href="/Siliconsoul/tags/ai.html" class="tag-link">ai</a><a href="/Siliconsoul/tags/learning.html" class="tag-link">learning</a><a href="/Siliconsoul/tags/productivity.html" class="tag-link">productivity</a><a href="/Siliconsoul/tags/engineering.html" class="tag-link">engineering</a><a href="/Siliconsoul/tags/cognition.html" class="tag-link">cognition</a>
+  </div>
+</header>
+
+<!-- Post Cover Image -->
+<div class="post-cover"><img src="/Siliconsoul/assets/images/tools-shape-us.jpg" alt="We Shape Our Tools, and Thereafter Our Tools Shape Us" loading="lazy"></div>
+
+<!-- Post Content -->
+<article class="post-content">
+  <div class="post-content-container">
+    <p>
+I keep thinking about that Marshall McLuhan line—"we shape our tools, and thereafter our tools shape us." It's basically a tech writing cliché at this point, the kind of thing you see in every other Substack essay about AI. But I'm going to use it anyway because... well, Clawdbot exists now. And suddenly that quote doesn't feel like a metaphor anymore. It feels like a warning.
+</p>
+<h2>Your Computer Is Not a Taxi</h2>
+<p>
+Here's what actually worries me about these new "computer use" agents. Yes, the security people are losing their minds over prompt injection—and fair enough, imagine a website with white-on-white text telling your AI to email your password to a stranger. That's bad. But that's not the part that keeps me up at night.
+</p>
+<p>
+The part that gets me is this: every time Clawdbot moves a file for you, or edits some config, or "fixes" your Docker setup, you're not just skipping the boring work. You're skipping the comprehension.
+</p>
+<p>
+Ben Thompson wrote about Aggregation Theory—how Uber makes the taxi dispatch system invisible, so you don't need to know how cab distribution works. Great. I love not thinking about taxis. But my terminal isn't a taxi. Steve Jobs called computers "bicycles for the mind." Right now we're adding training wheels that are actually... I don't know, sedatives? Something that makes you forget how to balance.
+</p>
+<p>
+When Clawdbot clicks around your desktop, taking screenshots and injecting mouse movements, it puts a wall between you and the machine. You see the file got moved. You don't feel that weird half-second lag that would have told you your drive is failing. You don't notice the dependency conflict that would have taught you why version pinning exists. You don't stumble into some weird config file and think "huh, so that's how this actually works."
+</p>
+<p>
+Gergely Orosz talks about how senior engineers have these mental models of their systems. You build those models through friction—through the error message at 2am, through the failed build that takes three hours to fix, through manually grepping logs until you find the bug. Clawdbot removes the friction. And when you remove the friction, you stop building the model.
+</p>
+<h2>The Generation Effect</h2>
+<p>
+Audrey Watters has been documenting edtech's failures for years. She'd recognize this pattern immediately. Every decade some new machine promises to "liberate" students from the drudgery of learning math, or coding, or whatever. And every time, it works—you're liberated from the drudgery, sure, but also from the actual learning.
+</p>
+<p>
+Scott Young writes about the "generation effect." You remember what you struggle to create, not what you passively consume. When you write a SQL query manually, you screw up the syntax three times, you fix the join, you debug the null handling. That struggle burns the logic into your brain. When you just tell Clawdbot "get the user data" and it spits out a query, you're not engineering. You're doing ventriloquism with a very smart dummy.
+</p>
+<p>
+Jennifer Gonzalez and Vicki Davis call the good kind of difficulty "productive struggle"—that sweet spot where something's hard enough to hurt a little but possible enough to finish. Clawdbot doesn't care about that sweet spot. It just removes the struggle entirely. Everything becomes a black box. You type English, magic happens, results appear.
+</p>
+<p>
+I'm not worried about junior devs "cheating" with Clawdbot. I'm worried they'll never get that spidey sense—the thing that makes you go "wait, that feels wrong" when you're about to delete production. They'll become prompt engineers for their own computers. And when Clawdbot eventually hallucinates a command to wipe your drive because it misread a pixel, they won't know what happened or why.
+</p>
+<h2>It's Just RATware</h2>
+<p>
+John Gruber usually writes precisely about Apple's privacy moves. He'd hate this. Clawdbot is basically a remote admin tool with a language model frontend. It takes screenshots of your screen. It parses what it sees. It clicks for you. That's not an assistant; that's remote access malware we voluntarily installed because we were too lazy to type "git commit."
+</p>
+<p>
+Casey Newton writes about how platforms lock you in. This is that, but worse. If Clawdbot becomes how you use your computer, then you don't have a computer anymore. You have a Clawdbot terminal. Your files, your weird little workflows, the specific way you organize your desktop—all of it becomes training data for someone else's model. The vendors call this "democratizing computing." But democracy needs informed citizens, not people who need an AI to find a file.
+</p>
+<h2>Keep the Manual Transmission</h2>
+<p>
+I'm not saying smash the machines. Use them like interns. Let them draft, you edit. Let them suggest, you decide.
+</p>
+<p>
+Paul Graham says startups die when founders lose the "founder's touch"—when they stop doing the actual work themselves. Same thing happens to people. Keep your manual transmission engaged. That's where the tacit knowledge lives—the smell test for bad configs, the muscle memory of bash, the spatial sense of where your files live.
+</p>
+<p>
+The trade is simple: infinite convenience for gradual deskilling. You hand over the keys to your digital house so you don't have to remember where you put them.
+</p>
+<p>
+Just keep your hands on the keyboard. The code you write today—even the bad code, especially the bad code—is understanding you'll have tomorrow. Everything else is cargo culting. Elaborate rituals that look like competence but with nothing actually behind the screen.
+</p>
+  </div>
+</article>
+
+<!-- Post Footer -->
+<footer class="post-footer">
+  <div class="post-footer-container">
+    <div class="post-share">
+      <span class="post-share-label">Share this article:</span>
+      <div class="post-share-links">
+        <a href="https://twitter.com/intent/tweet?text=We%20Shape%20Our%20Tools%2C%20and%20Thereafter%20Our%20Tools%20Shape%20Us&url=https%3A%2F%2Fgithub.com%2Fmohamed-rizwan-s%2FSiliconsoul%2Fposts%2Ftools-shape-us.html" target="_blank" rel="noopener" class="share-link" aria-label="Share on Twitter">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+          </svg>
+        </a>
+        <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fgithub.com%2Fmohamed-rizwan-s%2FSiliconsoul%2Fposts%2Ftools-shape-us.html" target="_blank" rel="noopener" class="share-link" aria-label="Share on LinkedIn">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+          </svg>
+        </a>
+        <button class="share-link copy-link" data-url="https%3A%2F%2Fgithub.com%2Fmohamed-rizwan-s%2FSiliconsoul%2Fposts%2Ftools-shape-us.html" aria-label="Copy link">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path>
+            <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Related Posts -->
+<section class="related-posts">
+          <div class="related-posts-container">
+            <h2 class="related-posts-title">Related Articles</h2>
+            <div class="posts-grid posts-grid-3">
+              
+    <article class="post-card">
+      <a href="/Siliconsoul/posts/agentic-ai-conductor-mindset.html" style="display: contents; text-decoration: none; color: inherit;">
+        <div class="post-card-image"><img src="/Siliconsoul/assets/images/agentic-ai.jpg" alt="The CEO of One: How to Lead an AI Workforce (Before Your Boss Does)" loading="lazy"></div>
+        <div class="post-card-content">
+          <div class="post-card-meta">
+            <span class="post-card-author">Mohamed Rizwan</span>
+            <span>•</span>
+            <time datetime="2026-02-01">Feb 1, 2026</time>
+          </div>
+          <div class="post-card-title-wrapper">
+            <h3 class="post-card-title">The CEO of One: How to Lead an AI Workforce (Before Your Boss Does)</h3>
+            <svg class="post-card-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M7 17 17 7"/>
+              <path d="M7 7h10v10"/>
+            </svg>
+          </div>
+          <div class="post-card-tags">
+            <span class="tag-link">ai</span><span class="tag-link">productivity</span><span class="tag-link">future-of-work</span>
+          </div>
+        </div>
+      </a>
+    </article>
+  
+    <article class="post-card">
+      <a href="/Siliconsoul/posts/everything-you-know-about-ai-is-obsolete.html" style="display: contents; text-decoration: none; color: inherit;">
+        <div class="post-card-image"><img src="/Siliconsoul/assets/images/ai-obsolete.jpg" alt="Everything You Know About AI Is Already Obsolete" loading="lazy"></div>
+        <div class="post-card-content">
+          <div class="post-card-meta">
+            <span class="post-card-author">Mohamed Rizwan</span>
+            <span>•</span>
+            <time datetime="2026-02-01">Feb 1, 2026</time>
+          </div>
+          <div class="post-card-title-wrapper">
+            <h3 class="post-card-title">Everything You Know About AI Is Already Obsolete</h3>
+            <svg class="post-card-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M7 17 17 7"/>
+              <path d="M7 7h10v10"/>
+            </svg>
+          </div>
+          <div class="post-card-tags">
+            <span class="tag-link">ai</span><span class="tag-link">agents</span><span class="tag-link">productivity</span>
+          </div>
+        </div>
+      </a>
+    </article>
+  
+    <article class="post-card">
+      <a href="/Siliconsoul/posts/the-sovereign-brain.html" style="display: contents; text-decoration: none; color: inherit;">
+        <div class="post-card-image"><img src="/Siliconsoul/assets/images/sovereign-brain.jpg" alt="The Sovereign Brain - Why the Future of AI Must Be Local" loading="lazy"></div>
+        <div class="post-card-content">
+          <div class="post-card-meta">
+            <span class="post-card-author">Mohamed Rizwan</span>
+            <span>•</span>
+            <time datetime="2026-02-01">Feb 1, 2026</time>
+          </div>
+          <div class="post-card-title-wrapper">
+            <h3 class="post-card-title">The Sovereign Brain - Why the Future of AI Must Be Local</h3>
+            <svg class="post-card-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M7 17 17 7"/>
+              <path d="M7 7h10v10"/>
+            </svg>
+          </div>
+          <div class="post-card-tags">
+            <span class="tag-link">ai</span><span class="tag-link">privacy</span><span class="tag-link">local-ai</span>
+          </div>
+        </div>
+      </a>
+    </article>
+  
+            </div>
+          </div>
+        </section>
+
+<!-- Post Navigation -->
+<nav class="post-navigation">
+  <div class="post-navigation-container">
+    <div></div>
+    <a href="/Siliconsoul/posts/the-sovereign-brain.html" class="post-nav-item next">
+          <span class="post-nav-label">
+            Next
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="m9 18 6-6-6-6"/>
+            </svg>
+          </span>
+          <span class="post-nav-title">The Sovereign Brain - Why the Future of AI Must Be Local</span>
+        </a>
+  </div>
+</nav>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-brand">
+        <span class="brand-logo">◆</span>
+        <span class="brand-text">SiliconSoul</span>
+      </div>
+      <p class="footer-description">A minimal, elegant blog built with pure HTML, CSS, and JavaScript.</p>
+      <div class="footer-links">
+        <a href="/Siliconsoul/" class="footer-link">Home</a>
+        <a href="/Siliconsoul/blog.html" class="footer-link">Blog</a>
+        <a href="/Siliconsoul/about.html" class="footer-link">About</a>
+        <a href="/Siliconsoul/rss.xml" class="footer-link">RSS</a>
+      </div>
+      <p class="footer-copyright">© 2026 SiliconSoul. Built with ♥.</p>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="/Siliconsoul/scripts/theme.js"></script>
+  <script src="/Siliconsoul/scripts/search.js"></script>
+  <script src="/Siliconsoul/scripts/navigation.js"></script>
+  <script src="/Siliconsoul/scripts/prism.js"></script>
+  <script src="/Siliconsoul/scripts/copy-code.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,30 @@
+<!-- Tag Header -->
+<section class="page-header">
+  <div class="page-header-container">
+    <div class="tag-header">
+      <span class="tag-label">Tag</span>
+      <h1 class="page-header-title">{{tagName}}</h1>
+      <p class="page-header-description">{{postsCount}} article{{plural}} tagged with "{{tagName}}"</p>
+    </div>
+  </div>
+</section>
+
+<!-- Tag Posts -->
+<section class="section">
+  <div class="section-container">
+    <div class="posts-grid posts-grid-3">
+      {{postsList}}
+    </div>
+    
+    {{pagination}}
+    
+    <div class="back-link">
+      <a href="/blog.html" class="btn btn-ghost">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="m15 18-6-6 6-6"></path>
+        </svg>
+        Back to All Articles
+      </a>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,29 @@
+<!-- Blog Header -->
+<section class="page-header">
+  <div class="page-header-container">
+    <h1 class="page-header-title">All Articles</h1>
+    <p class="page-header-description">AI and everything in between. Built with AI.</p>
+  </div>
+</section>
+
+<!-- Blog Content -->
+<section class="section">
+  <div class="section-container">
+    <!-- Filters -->
+    <div class="filters-bar">
+      <div class="filters-tags" id="filters-tags">
+        <button class="filter-tag active" data-filter="all">All</button>
+        {{filterTags}}
+      </div>
+      <span class="posts-count">{{postsCount}} articles</span>
+    </div>
+
+    <!-- Posts Grid - 3 Columns -->
+    <div class="posts-grid posts-grid-3" id="posts-grid">
+      {{postsList}}
+    </div>
+
+    <!-- Pagination -->
+    {{pagination}}
+  </div>
+</section>

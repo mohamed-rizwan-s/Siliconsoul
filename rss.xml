@@ -5,10 +5,10 @@
     <link>https://github.com/mohamed-rizwan-s/Siliconsoul/Siliconsoul</link>
     <description>AI and everything in between. Built by AI.</description>
     <language>en-us</language>
-    <lastBuildDate>Sun, 01 Feb 2026 15:06:16 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 01 Feb 2026 17:20:52 GMT</lastBuildDate>
     <atom:link href="https://github.com/mohamed-rizwan-s/Siliconsoul/Siliconsoul/rss.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>The Conductor Mindset - Why Agentic AI Changes Everything</title>
+      <title>The CEO of One: How to Lead an AI Workforce (Before Your Boss Does)</title>
       <link>https://github.com/mohamed-rizwan-s/Siliconsoul/Siliconsoul/posts/agentic-ai-conductor-mindset.html</link>
       <guid>https://github.com/mohamed-rizwan-s/Siliconsoul/Siliconsoul/posts/agentic-ai-conductor-mindset.html</guid>
       <pubDate>Sun, 01 Feb 2026 00:00:00 GMT</pubDate>
@@ -19,65 +19,40 @@
       <category>mindset</category>
     </item>
     <item>
-      <title>Accessibility First - Building for Everyone</title>
-      <link>https://github.com/mohamed-rizwan-s/Siliconsoul/Siliconsoul/posts/accessibility-first.html</link>
-      <guid>https://github.com/mohamed-rizwan-s/Siliconsoul/Siliconsoul/posts/accessibility-first.html</guid>
-      <pubDate>Tue, 30 Jan 2024 00:00:00 GMT</pubDate>
-      <description>Learn how to create inclusive web experiences that work for all users, regardless of ability or device.</description>
-      <category>accessibility</category>
-      <category>a11y</category>
-      <category>web-development</category>
+      <title>Everything You Know About AI Is Already Obsolete</title>
+      <link>https://github.com/mohamed-rizwan-s/Siliconsoul/Siliconsoul/posts/everything-you-know-about-ai-is-obsolete.html</link>
+      <guid>https://github.com/mohamed-rizwan-s/Siliconsoul/Siliconsoul/posts/everything-you-know-about-ai-is-obsolete.html</guid>
+      <pubDate>Sun, 01 Feb 2026 00:00:00 GMT</pubDate>
+      <description>The uncomfortable truth - if you are just using AI to do tasks, you are competing on price against a machine that costs pennies to run. You will lose.</description>
+      <category>ai</category>
+      <category>agents</category>
+      <category>productivity</category>
+      <category>future-of-work</category>
+      <category>systems-thinking</category>
     </item>
     <item>
-      <title>Web Performance - A Practical Guide</title>
-      <link>https://github.com/mohamed-rizwan-s/Siliconsoul/Siliconsoul/posts/web-performance.html</link>
-      <guid>https://github.com/mohamed-rizwan-s/Siliconsoul/Siliconsoul/posts/web-performance.html</guid>
-      <pubDate>Thu, 25 Jan 2024 00:00:00 GMT</pubDate>
-      <description>Learn practical techniques to make your website faster, more responsive, and better for users.</description>
-      <category>performance</category>
-      <category>web-development</category>
-      <category>optimization</category>
+      <title>The Sovereign Brain - Why the Future of AI Must Be Local</title>
+      <link>https://github.com/mohamed-rizwan-s/Siliconsoul/Siliconsoul/posts/the-sovereign-brain.html</link>
+      <guid>https://github.com/mohamed-rizwan-s/Siliconsoul/Siliconsoul/posts/the-sovereign-brain.html</guid>
+      <pubDate>Sun, 01 Feb 2026 00:00:00 GMT</pubDate>
+      <description>If we want AI to truly augment human potential, we have to break the tether to the cloud. We need to run these models locally, on our own devices.</description>
+      <category>ai</category>
+      <category>privacy</category>
+      <category>local-ai</category>
+      <category>security</category>
+      <category>future-of-tech</category>
     </item>
     <item>
-      <title>Modern CSS Features You Should Be Using</title>
-      <link>https://github.com/mohamed-rizwan-s/Siliconsoul/Siliconsoul/posts/modern-css-features.html</link>
-      <guid>https://github.com/mohamed-rizwan-s/Siliconsoul/Siliconsoul/posts/modern-css-features.html</guid>
-      <pubDate>Sat, 20 Jan 2024 00:00:00 GMT</pubDate>
-      <description>Discover the latest CSS features that can simplify your stylesheets and enhance your web designs.</description>
-      <category>css</category>
-      <category>web-development</category>
-      <category>tutorial</category>
-    </item>
-    <item>
-      <title>Building a Minimal Blog with Vanilla HTML, CSS, and JavaScript</title>
-      <link>https://github.com/mohamed-rizwan-s/Siliconsoul/Siliconsoul/posts/building-minimal-blog.html</link>
-      <guid>https://github.com/mohamed-rizwan-s/Siliconsoul/Siliconsoul/posts/building-minimal-blog.html</guid>
-      <pubDate>Mon, 15 Jan 2024 00:00:00 GMT</pubDate>
-      <description>A comprehensive guide to creating a fast, elegant, and framework-free blog that can be hosted on GitHub Pages.</description>
-      <category>javascript</category>
-      <category>css</category>
-      <category>tutorial</category>
-      <category>web-development</category>
-    </item>
-    <item>
-      <title>Creating a Design System with CSS Custom Properties</title>
-      <link>https://github.com/mohamed-rizwan-s/Siliconsoul/Siliconsoul/posts/css-design-tokens.html</link>
-      <guid>https://github.com/mohamed-rizwan-s/Siliconsoul/Siliconsoul/posts/css-design-tokens.html</guid>
-      <pubDate>Wed, 10 Jan 2024 00:00:00 GMT</pubDate>
-      <description>Learn how to build scalable, maintainable design systems using CSS variables and a systematic approach to styling.</description>
-      <category>css</category>
-      <category>design-systems</category>
-      <category>tutorial</category>
-    </item>
-    <item>
-      <title>Typography Matters - A Guide to Beautiful Web Text</title>
-      <link>https://github.com/mohamed-rizwan-s/Siliconsoul/Siliconsoul/posts/typography-matters.html</link>
-      <guid>https://github.com/mohamed-rizwan-s/Siliconsoul/Siliconsoul/posts/typography-matters.html</guid>
-      <pubDate>Fri, 05 Jan 2024 00:00:00 GMT</pubDate>
-      <description>Master the art of web typography to create readable, beautiful, and accessible text content.</description>
-      <category>typography</category>
-      <category>design</category>
-      <category>css</category>
+      <title>We Shape Our Tools, and Thereafter Our Tools Shape Us</title>
+      <link>https://github.com/mohamed-rizwan-s/Siliconsoul/Siliconsoul/posts/tools-shape-us.html</link>
+      <guid>https://github.com/mohamed-rizwan-s/Siliconsoul/Siliconsoul/posts/tools-shape-us.html</guid>
+      <pubDate>Sun, 01 Feb 2026 00:00:00 GMT</pubDate>
+      <description>Every time an AI agent moves a file for you or edits your config, you&apos;re not just skipping the boring work. You&apos;re skipping the comprehension.</description>
+      <category>ai</category>
+      <category>learning</category>
+      <category>productivity</category>
+      <category>engineering</category>
+      <category>cognition</category>
     </item>
   </channel>
 </rss>
